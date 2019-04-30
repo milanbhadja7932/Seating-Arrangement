@@ -43,44 +43,44 @@ Green Boxes Indicate the chair is empty and red Boxes Indicate the chair is Not 
 
 
 <strong>CONCEPTS</strong>
-   <strong>MACHINE LEARNING</strong>
-        --> GENERATE CHARTS
-        --> USER GRAPH
-        --> ADMIN VIEW 
-        --> ETC
-   <strong>DEEP LEARNING</strong>
-        --> OBJECT DETECTION
-        --> INTERSECTION OVER UNION
-        --> SPACE DETECTION
-        --> ETC
-<strong>LIBRARY</strong>
-    --> NUMPY
-    --> OPENCV
-    --> YOLO
-    --> FlASK
-    --> ADMIN LTE
-    --> FLASK_SOCKETIO
-    --> MATPLOTLIB
-    --> SEABORN
-    --> OS
+   <strong>MACHINE LEARNING</br></strong>
+        --> GENERATE CHARTS</br>
+        --> USER GRAPH</br>
+        --> ADMIN VIEW </br>
+        --> ETC</br>
+   <strong>DEEP LEARNING</br></strong>
+        --> OBJECT DETECTION</br>
+        --> INTERSECTION OVER UNION</br>
+        --> SPACE DETECTION</br>
+        --> ETC</br>
+<strong>LIBRARY</br></strong>
+    --> NUMPY</br>
+    --> OPENCV</br>
+    --> YOLO</br>
+    --> FlASK</br>
+    --> ADMIN LTE</br>
+    --> FLASK_SOCKETIO</br>
+    --> MATPLOTLIB</br>
+    --> SEABORN</br>
+    --> OS</br>
    
-<strong>USER INTERFACE</strong>
+<strong>USER INTERFACE</br></strong>
   
-  <strong>USER SIDE</strong>
-    --> SIGNUP
-    --> LOGIN
-    --> HOME PAGE
-    --> MONITOR
-    --> ENQUIRY
-    --> FEED BACK
-    --> LOGOUT
- <strong>ADMIN SIDE</strong>
-    --> DASH BOARD
-    --> ENQUIRY-FORM
-    --> FEED BACK -FORM
-    --> USER CONTACT
-    --> CHARTS OF USER
-    --> LOGOUT
+  <strong>USER SIDE</br></strong>
+    --> SIGNUP</br>
+    --> LOGIN</br>
+    --> HOME PAGE</br>
+    --> MONITOR</br>
+    --> ENQUIRY</br>
+    --> FEED BACK</br>
+    --> LOGOUT</br>
+ <strong>ADMIN SIDE</br></strong>
+    --> DASH BOARD</br>
+    --> ENQUIRY-FORM</br>
+    --> FEED BACK -FORM</br>
+    --> USER CONTACT</br>
+    --> CHARTS OF USER</br>
+    --> LOGOUT</br>
    
 
 
