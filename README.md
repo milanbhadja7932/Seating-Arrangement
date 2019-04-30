@@ -11,13 +11,13 @@ Seat Live time, SML used DL With IOU to Find Available Seat.
 When we have a complicated problem that we want to solve with machine learning, the first step is to break down the problem into a sequence for simple tasks. Then, using our breakdown as a guide, we can pull different tools from our machine learning toolbox to solve each of the smaller tasks. By chaining together several small solutions into a pipeline, we’ll have a system that can do something complicated.
 
 
-# Input:Webcamera for Video  -->  Detect Chair or Table --> Detect Human --> Compute Iou--> Show Parking Space
+--> Input:Webcamera for Video  -->  Detect Chair or Table --> Detect Human --> Compute Iou--> Show Available Space
 
 # Detect the table in restaurant
 
  Detecting chairs in a frame of video is a textbook object detection problem. There are lots of machine learning approaches we could use to detect an object in an image. Here are some of the most common object detection algorithms, in order from “old school” to “new school”:
 
-# 1-->Hog(Histogram of Oriented Gradients)</br>   2--> CNN (Convolutional Neural Network)</br>  3--> YOLO</br>  
+--> <strong>1-->Hog(Histogram of Oriented Gradients)</br>   2--> CNN (Convolutional Neural Network)</br>  3--> YOLO</br> </strong> 
 
 
 <p align="center">
