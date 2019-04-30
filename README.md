@@ -42,7 +42,7 @@ Green Boxes Indicate the chair is empty and red Boxes Indicate the chair is Not 
 # CONCEPTS LIBRARY AND USER INTERFACE LIST USED IN PROJECT
 
 
-<strong>CONCEPTS</strong>
+<strong>CONCEPTS</br></strong>
    <strong>MACHINE LEARNING</br></strong>
         --> GENERATE CHARTS</br>
         --> USER GRAPH</br>
