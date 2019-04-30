@@ -39,7 +39,7 @@ Green Boxes Indicate the chair is empty and red Boxes Indicate the chair is Not 
   <img src="https://github.com/milanbhadja7932/Seating-Arrangement/blob/master/Screenshot%20(32).png" width="350" alt="accessibility text">
 </p>
 
-# Concepts To Use In Project
+# CONCEPTS LIBRARY AND USER INTERFACE LIST USED IN PROJECT
 
 
 # CONCEPTS
@@ -54,34 +54,34 @@ Green Boxes Indicate the chair is empty and red Boxes Indicate the chair is Not 
         --> SPACE DETECTION
         --> ETC
 # LIBRARY
-   # 1--> NUMPY
-   # 2--> OPENCV
-   # 3--> YOLO
-   # 4--> FlASK
-   # 5--> ADMIN LTE
-   # 6--> FLASK_SOCKETIO
-   # 3--> MATPLOTLIB
-   # 3--> SEABORN
-   # 3--> OS
+    --> NUMPY
+    --> OPENCV
+    --> YOLO
+    --> FlASK
+    --> ADMIN LTE
+    --> FLASK_SOCKETIO
+    --> MATPLOTLIB
+    --> SEABORN
+    --> OS
    
 
 # USER INTERFACE
   
   # USER SIDE
-   # SIGNUP
-   # LOGIN
-   # HOME PAGE
-   # MONITOR
-   # ENQUIRY
-   # FEED BACK
-   # LOGOUT
+    --> SIGNUP
+    --> LOGIN
+    --> HOME PAGE
+    --> MONITOR
+    --> ENQUIRY
+    --> FEED BACK
+    --> LOGOUT
  # ADMIN SIDE
-  # DASH BOARD
-  # ENQUIRY-FORM
-  # FEED BACK -FORM
-  # USER CONTACT
-  # CHARTS OF USER
-  # LOGOUT
+    --> DASH BOARD
+    --> ENQUIRY-FORM
+    --> FEED BACK -FORM
+    --> USER CONTACT
+    --> CHARTS OF USER
+    --> LOGOUT
    
 
 
