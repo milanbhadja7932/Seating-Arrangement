@@ -42,6 +42,10 @@ Green Boxes Indicate the chair is empty and red Boxes Indicate the chair is Not 
   <img src="https://github.com/milanbhadja7932/Seating-Arrangement/blob/master/Screenshot%20(32).png" width="350" alt="accessibility text">
 </p>
 
+# OUTPUT
+ 
+  ![Alt Text](https://github.com/milanbhadja7932/Seating-Arrangement/blob/master/gif%20for%20video.gif)
+
 # CONCEPTS LIBRARY AND USER INTERFACE LIST USED IN PROJECT
 
 
