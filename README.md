@@ -15,8 +15,28 @@ When we have a complicated problem that we want to solve with machine learning, 
 
 # Detect the table in restaurant
 
-![alt text](https://github.com/milanbhadja7932/Seating-Arrangement/blob/master/Screenshot%20(17).png)
+ Detecting chairs in a frame of video is a textbook object detection problem. There are lots of machine learning approaches we could use to detect an object in an image. Here are some of the most common object detection algorithms, in order from “old school” to “new school”:
+
+# 1-->Hog(Histogram of Oriented Gradients)   2--> CNN (Convolutional Neural Network)  3--> YOLO  
+
 
 <p align="center">
   <img src="https://github.com/milanbhadja7932/Seating-Arrangement/blob/master/Screenshot%20(17).png" width="350" alt="accessibility text">
 </p>
+
+# Detecting Empty Table Spaces
+
+We know the pixel location of each chair in our image. And by looking at multiple frames of video in succession, we can easily work out which chair haven’t moved and assume those areas are parking spaces. But how do we detect when a human leaves a chair?
+
+The problem is that the bounding boxes of the chair in our image partially overlap:
+
+So if we assume that each of those bounding boxes represents a  Chair, it’s possible that the box can be partially occupied by a Human even when the space is empty. We need a way to measure how much two objects overlap so we can check for “mostly empty” boxes.
+
+The measure we will use is called Intersection Over Union or IoU. IoU calculated by finding the amount of pixels where two objects overlap and dividing it by the amount of pixels covered by both objects, like this:
+
+<p align="center">
+  <img src="https://github.com/milanbhadja7932/Seating-Arrangement/blob/master/Screenshot%20(32).png" width="350" alt="accessibility text">
+</p>
+
+
+
