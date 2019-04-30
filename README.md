@@ -17,7 +17,7 @@ When we have a complicated problem that we want to solve with machine learning, 
 
  Detecting chairs in a frame of video is a textbook object detection problem. There are lots of machine learning approaches we could use to detect an object in an image. Here are some of the most common object detection algorithms, in order from “old school” to “new school”:
 
---> <strong>1-->Hog(Histogram of Oriented Gradients)</br>   2--> CNN (Convolutional Neural Network)</br>  3--> YOLO</br> </strong> 
+<strong>1-->Hog(Histogram of Oriented Gradients)</br>   2--> CNN (Convolutional Neural Network)</br>  3--> YOLO</br> </strong> 
 
 
 <p align="center">
@@ -42,18 +42,18 @@ Green Boxes Indicate the chair is empty and red Boxes Indicate the chair is Not 
 # CONCEPTS LIBRARY AND USER INTERFACE LIST USED IN PROJECT
 
 
-# CONCEPTS
-   # MACHINE LEARNING
+<strong>CONCEPTS</strong>
+   <strong>MACHINE LEARNING</strong>
         --> GENERATE CHARTS
         --> USER GRAPH
         --> ADMIN VIEW 
         --> ETC
-   # DEEP LEARNING
+   <strong>DEEP LEARNING</strong>
         --> OBJECT DETECTION
         --> INTERSECTION OVER UNION
         --> SPACE DETECTION
         --> ETC
-# LIBRARY
+<strong>LIBRARY</strong>
     --> NUMPY
     --> OPENCV
     --> YOLO
@@ -64,10 +64,9 @@ Green Boxes Indicate the chair is empty and red Boxes Indicate the chair is Not 
     --> SEABORN
     --> OS
    
-
-# USER INTERFACE
+<strong>USER INTERFACE</strong>
   
-  # USER SIDE
+  <strong>USER SIDE</strong>
     --> SIGNUP
     --> LOGIN
     --> HOME PAGE
@@ -75,7 +74,7 @@ Green Boxes Indicate the chair is empty and red Boxes Indicate the chair is Not 
     --> ENQUIRY
     --> FEED BACK
     --> LOGOUT
- # ADMIN SIDE
+ <strong>ADMIN SIDE</strong>
     --> DASH BOARD
     --> ENQUIRY-FORM
     --> FEED BACK -FORM
