@@ -17,7 +17,7 @@ When we have a complicated problem that we want to solve with machine learning, 
 
  Detecting chairs in a frame of video is a textbook object detection problem. There are lots of machine learning approaches we could use to detect an object in an image. Here are some of the most common object detection algorithms, in order from “old school” to “new school”:
 
-# 1-->Hog(Histogram of Oriented Gradients)   2--> CNN (Convolutional Neural Network)  3--> YOLO  
+# 1-->Hog(Histogram of Oriented Gradients)</br>   2--> CNN (Convolutional Neural Network)</br>  3--> YOLO</br>  
 
 
 <p align="center">
@@ -34,9 +34,54 @@ So if we assume that each of those bounding boxes represents a  Chair, it’s po
 
 The measure we will use is called Intersection Over Union or IoU. IoU calculated by finding the amount of pixels where two objects overlap and dividing it by the amount of pixels covered by both objects, like this:
 
+Green Boxes Indicate the chair is empty and red Boxes Indicate the chair is Not Available for Seating.
 <p align="center">
   <img src="https://github.com/milanbhadja7932/Seating-Arrangement/blob/master/Screenshot%20(32).png" width="350" alt="accessibility text">
 </p>
 
+# Concepts To Use In Project
+
+
+# CONCEPTS
+   # MACHINE LEARNING
+        --> GENERATE CHARTS
+        --> USER GRAPH
+        --> ADMIN VIEW 
+        --> ETC
+   # DEEP LEARNING
+        --> OBJECT DETECTION
+        --> INTERSECTION OVER UNION
+        --> SPACE DETECTION
+        --> ETC
+# LIBRARY
+   # 1--> NUMPY
+   # 2--> OPENCV
+   # 3--> YOLO
+   # 4--> FlASK
+   # 5--> ADMIN LTE
+   # 6--> FLASK_SOCKETIO
+   # 3--> MATPLOTLIB
+   # 3--> SEABORN
+   # 3--> OS
+   
+
+# USER INTERFACE
+  
+  # USER SIDE
+   # SIGNUP
+   # LOGIN
+   # HOME PAGE
+   # MONITOR
+   # ENQUIRY
+   # FEED BACK
+   # LOGOUT
+ # ADMIN SIDE
+  # DASH BOARD
+  # ENQUIRY-FORM
+  # FEED BACK -FORM
+  # USER CONTACT
+  # CHARTS OF USER
+  # LOGOUT
+   
 
 
