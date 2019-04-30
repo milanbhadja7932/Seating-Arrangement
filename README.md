@@ -33,6 +33,9 @@ The problem is that the bounding boxes of the chair in our image partially overl
 So if we assume that each of those bounding boxes represents a  Chair, it’s possible that the box can be partially occupied by a Human even when the space is empty. We need a way to measure how much two objects overlap so we can check for “mostly empty” boxes.
 
 The measure we will use is called Intersection Over Union or IoU. IoU calculated by finding the amount of pixels where two objects overlap and dividing it by the amount of pixels covered by both objects, like this:
+<p align="center">
+  <img src="https://github.com/milanbhadja7932/Seating-Arrangement/blob/master/iou.png" width="350" alt="accessibility text">
+</p>
 
 Green Boxes Indicate the chair is empty and red Boxes Indicate the chair is Not Available for Seating.
 <p align="center">
