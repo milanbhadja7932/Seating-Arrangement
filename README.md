@@ -14,8 +14,6 @@ If the files are located somewhere else then mention the path while calling the 
 
 
 # Detecting Empty Table Spaces
-[![yolov3-video](https://user-images.githubusercontent.com/26242097/48851021-0785f480-edd0-11e8-8ce4-cdfb78e8a849.png)](https://www.youtube.com/watch?v=AzmCYs5fAn0)
-<small> Click on the image to Play the video on YouTube </small>
 
 We know the pixel location of each chair in our image. And by looking at multiple frames of video in succession, we can easily work out which chair haven’t moved and assume those areas are parking spaces. But how do we detect when a human leaves a chair?
 
