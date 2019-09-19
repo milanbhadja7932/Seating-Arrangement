@@ -1,0 +1,53 @@
+
+{% block title %}Log In{% endblock %}
+{% block description %}Log into your account!{% endblock %}
+{% block bodytag %}login-page{% endblock %}
+
+{% block body %}
+
+  <div class="login-box">
+    <div class="login-logo">
+      <strong>Admin</strong>LTE
+    </div>
+    <div class="login-box-body">
+      <p>Log into your account!</p>
+      {# Display errors (if there are any). #}
+      {% with messages = get_flashed_messages() %}
+        {% if messages %}
+          <ul>
+            {% for message in messages %}
+              <li>{{ message }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      {% endwith %}
+      {# Render the login form. #}
+      <form action="" class="form-inline" method="post">
+        <div class="form-group has-feedback">
+          name<input type="text" name="username" required="true" sclass="form-control" >
+          <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+        </div>
+        <div class="form-group has-feedback">
+          password<input type="password" name="password" required="true" class="form-control" >
+          <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+        </div>
+        <div class="row">
+          <div >
+            <button type="submit" class="btn btn-primary btn-block btn-flat"  >submit</button>
+          </div>
+        </div>
+
+
+
+
+
+
+</form>
+
+
+
+
+    </div>
+  </div>
+
+{% endblock %}

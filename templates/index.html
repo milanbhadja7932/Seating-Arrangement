@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.4.2.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
+		  <script type="text/javascript" charset="utf-8">
+		  
+		  $(document).ready(function() {
+			var socket = io.connect('http://' + document.domain + ':' + location.port);
+			socket.on('video_data', function(msg) {
+				$('#p1').html(msg.data[0] +' , ' + msg.data[1] +' , ' + msg.data[2] + ' , '+ msg.data[3]);
+				
+				
+				
+				for(i=0; i<msg.data[0].length; i++){
+
+					if(msg.data[i]<0){
+						$('#mainContainer').append(`<div id="b`+i+`" class="box1"></div>`);
+						$('#b' + i).addClass('red');
+						$('#b' + i).removeClass('green');
+					}
+					else{
+						$('#mainContainer').append(`<div id="b`+i+`" class="box1"></div>`);
+						$('#b' + i).addClass('green');
+						$('#b' + i).removeClass('red');
+					}
+
+				}
+				
+				// if(msg.data[3]<0){
+				// 	$('#b1').addClass('red');
+				// 	$('#b1').removeClass('green');
+				// }
+				// else{
+				// 	$('#b1').addClass('green');
+				// 	$('#b1').removeClass('red');
+				// }
+				
+				
+				console.log(msg.data);
+			});
+			socket.on('connect', function() {
+			console.log("connected");
+			socket.emit('send_event_to_backend', {data: 'I\'m connected!'});
+			
+			});
+			  socket.on('response_from_backend', function(msg) {
+				console.log("Received number");
+				})
+			});
+			</script>
+			<style>
+			
+				.box1{
+					height:200px;
+					width:200px;
+					display: inline-block;
+					margin-left: 10px;
+				}
+				
+				.green{
+					background-color: green;
+				}
+				
+				.red{
+					background-color: red;
+				}
+			
+			</style>
+  <title>Flask SocketIO Test 1</title>
+  </head>
+  <body>hello dscxj
+  
+	 <form id="emit" method="POST" action=''>
+		<input type="text" name="emit_data" id="emit_data" placeholder="Message">
+        <input type="submit" value="Echo">
+		
+	 </form>
+	 
+	 
+	 <p id="p1"></p>
+	 <div id="mainContainer"></div>
+	 
+  </body>
+</html>		  
+		  
+		 
+		  
+		  
